@@ -27,7 +27,7 @@ public class Ejemplo11 {
         3      4
         20     40
         */
-        int[][] sumaArreglo = new int[2][2]; //
+        int[][] sumaArreglo = new int[2][2]; //suma de columnas 
         /*
         4    6
         30   52
@@ -47,6 +47,8 @@ public class Ejemplo11 {
         for (int fila = 0; fila < sumaArreglo.length; fila++) {
             for (int col = 0; col < sumaArreglo[fila].length; col++) {
                 System.out.printf("%d\t", sumaArreglo[fila][col]);
+                // en este codigo uso 3 arreglos por que estamos sumando os arrelgos
+                //pero por sus columnas no por sus filas 
             }
             System.out.println("");
         }
